@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    color: beige;
+}
+body {
+    background: url(https://biographe.ru/wp-content/uploads/2022/11/scale_1200.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.h1 {
+    text-shadow: rgb(243, 200, 27) 3px 0 10px;
+}
+.input {
+    background: none;
+    border-radius: 20px;
+    border-width: 0.2rem;
+    height: 30px;
+}
+.input::placeholder {
+    padding: 10px 5px 5px 10px;
+    color:beige;
+}
+
+input:focus {
+    color: #ff0000;
+}
